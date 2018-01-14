@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <title>Sublime Project</title>
+</head>
+
+<body>
+   <h1 id="main-title">Monk's Cafe</h1>
+ <div id="Restaurant">
+   <div id="restaurant-pic"></div>
+</div>
+<div id= "Reservations">
+   <h1>Reservations</h1>
+ <ul id = "Reservation-ul">
+ 	<li id = "Reservation-form">
+   		<h2>Make a Reservation</h2>
+			<form>
+   				<input type="text" placeholder="Your Name">
+   				<input type="text" placeholder="Date of Reservation">
+   			 <button>Confirm Reservation</button>
+			</form>
+	</li>
+
+	<li id = "Current-Reservations">
+		<h2>Existing Reservations</h2>
+		<table>
+		<thead>
+			<th>Name</th>
+			<th>Day</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Jerry</td>
+				<td>7:30pm</td>
+			</tr>
+		</tbody>
+		</table>
+	</li>
+</ul>
+</div>
+
+<div id= "Map-Section">
+		<h1>Come Dine with Us</h1>
+			<div id = "map"></div>
+</div>
+
+<div id= "Review-Section">
+				<ul id="reviewers">
+					<h1>Customer Reviews</h1>
+					<li id="reviewer-photo">
+						<div id="Jerry-pic"></div>
+					</li>
+					<li id="reviewer-text">
+					<h3> “Big lettuce, big carrots, tomatoes like volleyballs.”</br>
+					— Jerry Seinfeld, on The BIG Salad</h3>
+					</li>
+				</ul>
+</div>
+
+
+ <!-- script srcs -->
+ <script src="main.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2DQTcDL_WT_FT0U99a57ltzYMDnZCZeA&callback=initMap">
+</script>
+</body>
+</html>
